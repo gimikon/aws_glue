@@ -25,7 +25,7 @@ S3bucket_node1 = glueContext.create_dynamic_frame.from_options(
     },
     connection_type="s3",
     format="csv",
-    connection_options={"paths": ["s3://testing-yukiiso/data/0913/"], "recurse": True},
+    connection_options={"paths": ["s3://xxxxxxxx"], "recurse": True},
     transformation_ctx="S3bucket_node1",
 )
 
