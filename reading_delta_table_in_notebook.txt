@@ -5,10 +5,9 @@
   "glue_version":"4.0"
 }
 
-Run this cell:
-=================
+
 df = glueContext.create_data_frame.from_catalog(
     database="xxxx",
     table_name="xxxxxx"
 )
-=================
+
